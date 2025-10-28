@@ -17,3 +17,8 @@ Options:
   --min-size <bytes>   Ignore files smaller than X bytes
   --threads <n>        Set number of threads
   --json               Output results as JSON
+```
+ 
+## Learnings
+- clap
+command line argument parser
