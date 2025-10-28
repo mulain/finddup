@@ -1,11 +1,11 @@
 mod cli;
-mod scanner;
 mod models;
 mod output;
+mod scanner;
 
 use cli::CliArgs;
-use scanner::find_duplicates;
 use output::print_results;
+use scanner::find_duplicates;
 
 fn main() {
     let args = CliArgs::parse();
