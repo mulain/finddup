@@ -31,7 +31,7 @@ pub struct CliArgs {
     pub threads: usize,
 
     /// Output results as JSON instead of pretty text
-    #[arg(long, default_value_t = false)]
+    #[arg(short = 'j', long, default_value_t = false)]
     pub json: bool,
 }
 
