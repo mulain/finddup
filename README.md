@@ -19,6 +19,3 @@ Options:
   --json               Output results as JSON
 ```
  
-## Learnings
-- clap
-command line argument parser
